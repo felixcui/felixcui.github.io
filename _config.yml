@@ -1,0 +1,110 @@
+# Site settings
+title : felixcui's Blog
+tagline: Sharing Technology, Recording Life
+keywords : hadoop, hive, spark, impala, c++, java, scala
+description: 分布式计算，数据平台，机器学习，定位算法
+url: "//felixcui01.github.com"
+author:
+    name: felixcui
+    github: felixcui
+    email: felixcui@163.com
+    gitcafe: felixcui
+    twitter:
+    facebook:
+    googleplus:
+    weibo: felixcui
+atom_path: /atom.xml
+rss_path: /rss.xml
+
+# Handling Reading
+safe:         false
+include:      []
+exclude:      [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+keep_files:   []
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Filtering Content
+show_drafts: null
+limit_posts: 0
+future:      true
+unpublished: false
+
+# Plugins
+whitelist: []
+gems:      []
+
+# Conversion
+markdown:    redcarpet
+highlighter: pygments
+lsi:         false
+excerpt_separator: "\n\n"
+
+# Serving
+detach:  false
+port:    4000
+host:    0.0.0.0
+baseurl: "" # does not include hostname
+
+# Backwards-compatibility
+relative_permalinks: false
+
+# Outputting
+permalink: /:year/:month/:day/:title
+paginate_path: /page:num
+paginate: 15
+timezone:    Asia/Shanghai
+
+
+# Markdown Processors
+redcarpet:
+  extensions: [ "fenced_code_blocks", "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
+
+
+# comment
+comments:
+  duoshuo:
+    name: felixcui
+    rcomments:
+        num: 8
+        avatar: 0
+        time: 0
+        title: 0
+        admin: 0
+        length: 12
+# 网站统计
+analytics:
+    baidu:
+        siteid:         # 百度统计 js 代码后的字符串
+#    51la:
+#        uid:
+    cnzz:
+        uid:
+# blogroll
+blogroll : true
+brlist :
+    - text : felixcui's Blog
+      url : //felixcui01.github.com/
+    - text : felixcui Sitemap
+      url : /sitemap.xml
+    - text : Eagle's Blog
+      url : //blog.jassassin.com/
+    - text : 圆木菠萝罐
+      url : //blog.boluotou.com/
+    - text : Log4D
+      url : //log4d.com/
+    - text : A Java geek
+      url : //blog.frankel.ch
+    - text : Kohsuke Kawaguchi
+      url : //kohsuke.org/
+    - text : 并行实验室
+      url : //www.parallellabs.com/
+    - text : 灵魂机器
+      url : //cn.soulmachine.me/
+    - text : MayCoder
+      url : //code6.github.io/
+    - text : 刘兰涛的Blog
+      url : //blog.liulantao.com/
+    - text : zJun Blog
+      url : //zjun.github.io/
