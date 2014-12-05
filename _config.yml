@@ -1,9 +1,9 @@
 # Site settings
-title : felixcui's Blog
+title : felixcui's blog
 tagline: Sharing Technology, Recording Life
 keywords : hadoop, hive, spark, impala, c++, java, scala
-description: 分布式计算，数据平台，机器学习，定位算法
-url: "//felixcui01.github.com"
+description: 分布式计算，数据平台，机器学习
+url: "//felixcui.github.com"
 author:
     name: felixcui
     github: felixcui
@@ -84,8 +84,8 @@ analytics:
 # blogroll
 blogroll : true
 brlist :
-    - text : felixcui's Blog
-      url : //felixcui01.github.com/
+    - text : felixcui's blog
+      url : //felixcui.github.com/
     - text : felixcui Sitemap
       url : /sitemap.xml
     - text : Eagle's Blog
